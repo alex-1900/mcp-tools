@@ -1,2 +1,2 @@
 # mcp-tools
-Local MCP services
+本地 MCP 服务集合

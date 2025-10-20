@@ -1,0 +1,33 @@
+{
+  "name": "mcp-tools",
+  "version": "1.0.0",
+  "description": "本地运行的 MCP 工具集",
+  "scripts": {
+    "build": "tsc && chmod 755 build/*",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "files": [
+    "build"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alex-1900/mcp-tools.git"
+  },
+  "keywords": [],
+  "license": "MIT",
+  "type": "module",
+  "bugs": {
+    "url": "https://github.com/alex-1900/mcp-tools/issues"
+  },
+  "homepage": "https://github.com/alex-1900/mcp-tools#readme",
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.20.1",
+    "better-sqlite3": "^12.4.1",
+    "sqlite-vec": "^0.1.7-alpha.2"
+  },
+  "devDependencies": {
+    "@types/better-sqlite3": "^7.6.13",
+    "@types/node": "^24.9.0",
+    "typescript": "^5.9.3"
+  }
+}
